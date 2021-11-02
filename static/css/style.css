@@ -1,0 +1,50 @@
+body {
+    color: darkslategray;
+    background-color: darkgrey;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("/static/images/cheesy_sleeping.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.wrapper {
+    width: 720px;
+    margin: 0px auto;
+}
+
+.header {
+    margin: 40px 0px 20px 0px;
+}
+
+.relative {
+    padding: 25px;
+    position: relative;
+    background-color: #fff;
+    margin: 25px;
+   }
+
+img.logo {
+    width: 300px;
+    height: 250px;
+}
+
+button {
+    display: inline-block;
+    padding: 17px 27px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+    border: none;
+    -webkit-transition-duration: 0.2s;
+   transition-duration: 0.2s;
+   border-radius: 15px;
+   box-shadow: 0 10px #998;
+ }
+
+button:active {
+   background-color: #8842d5;
+   box-shadow: 0 6px #667;
+   transform: translateY(5px);
+ }
