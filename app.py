@@ -21,7 +21,7 @@ def device_action(deviceAlias,action,state):
     def add_header(response):
         response.headers['Access-Control-Allow-Origin'] = '*'
         return response
-    jsonResp = {'status':200,'device':deviceAlias,'action':action,'state':state}
+    jsonResp = json.dumps({'status':200,'device':deviceAlias,'action':action,'state':state})
     return jsonResp
 
 if __name__ == '__main__':
